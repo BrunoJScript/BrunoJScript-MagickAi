@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Merienda:wght@300..900&family=Roboto:ital,
+      wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Whisper&display=swap"
+      rel="stylesheet"
+    />
+    <title>Magick Ai</title>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img src="src/image/logo.png" alt="" />
+    </header>
+    <main class="conteiner">
+      <h1 class="prdutos">Produtos</h1>
+      <div class="filtro">
+        <div class="categorias-cartas">
+          <label for="categoria">Categoria</label>
+          <select id="categoria" class="categoria">
+            <option value="">Selecionar uma carta</option>
+            <option value="">Comum</option>
+            <option value="">Rara</option>
+            <option value="">Épica</option>
+          </select>
+        </div>
+        <div class="preco-cartas">
+          <label for="preco">Preço Maximo(R$)</label>
+          <input type="text" id="preco" class="preco" placeholder="Ex:100" />
+        </div>
+        <button class="btn-filtrar">Aplicar filtros</button>
+      </div>
+      <ul class="cartas">
+        <li class="carta" data-categoria="Épica" data-preco="3000">
+          <img src="src/image/Carta- Bruskynnon.png" alt="" />
+
+          <div class="informacoes">
+            <h2 class="nome-personagem">Bruskynnon</h2>
+            <span class="categoria">Categoria: Épica</span>
+            <span class="preco">R$ 30.000,00</span>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </li>
+        <li class="carta" data-categoria="Épica" data-preco="3000">
+          <img src="src/image/Carta-Rebheyan e Caahdrynn.png" alt="" />
+
+          <div class="informacoes">
+            <h2 class="nome-personagem">Rebheyan e Caahdrynn</h2>
+            <span class="categoria">Categoria: Épica</span>
+            <span class="preco">R$ 64.000,00</span>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </li>
+        <li class="carta" data-categoria="Épica" data-preco="3000">
+          <img src="src/image/Carta-Buhxkelen.png" alt="" />
+
+          <div class="informacoes">
+            <h2 class="nome-personagem">Buhxkelen</h2>
+            <span class="categoria">Categoria: Épica</span>
+            <span class="preco">R$ 45.800,00</span>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </li>
+        <li class="carta" data-categoria="Épica" data-preco="3000">
+          <img src="src/image/Carta-AlbusMago.png" alt="" />
+
+          <div class="informacoes">
+            <h2 class="nome-personagem">Albus Dumbledore</h2>
+            <span class="categoria">Categoria: Épica</span>
+            <span class="preco">R$ 9.500,00</span>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </li>
+        <li class="carta" data-categoria="Épica" data-preco="3000">
+          <img src="src/image/Carta-Elli Williians.png" alt="" />
+
+          <div class="informacoes">
+            <h2 class="nome-personagem">Elli Williians</h2>
+            <span class="categoria">Categoria: Épica</span>
+            <span class="preco">R$ 12.500,00</span>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </li>
+        <li class="carta" data-categoria="Épica" data-preco="3000">
+          <img src="src/image/Carta-Belatrixx..png" alt="" />
+
+          <div class="informacoes">
+            <h2 class="nome-personagem">Bellatrix Lestrange</h2>
+            <span class="categoria">Categoria: Épica</span>
+            <span class="preco">R$ 6.500,00</span>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </li>
+        <li class="carta" data-categoria="Épica" data-preco="3000">
+          <img src="src/image/carta-drahven.png" alt="" />
+
+          <div class="informacoes">
+            <h2 class="nome-personagem">Drahven</h2>
+            <span class="categoria">Categoria: Épica</span>
+            <span class="preco">R$ 600,00</span>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </li>
+        <li class="carta" data-categoria="Épica" data-preco="3000">
+          <img src="src/image/carta-nyxsombra.png" alt="" />
+
+          <div class="informacoes">
+            <h2 class="nome-personagem">Nyxsombra</h2>
+            <span class="categoria">Categoria: Épica</span>
+            <span class="preco">R$ 400,00</span>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </li>
+        <li class="carta" data-categoria="Épica" data-preco="3000">
+          <img src="src/image/carta-arkanon.png" alt="" />
+
+          <div class="informacoes">
+            <h2 class="nome-personagem">Arkanon</h2>
+            <span class="categoria">Categoria: Épica</span>
+            <span class="preco">R$ 3.600,00</span>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </li>
+        <li class="carta" data-categoria="Épica" data-preco="3000">
+          <img src="src/image/carta-lymara.png" alt="" />
+
+          <div class="informacoes">
+            <h2 class="nome-personagem">Lymara</h2>
+            <span class="categoria">Categoria: Épica</span>
+            <span class="preco">R$ 1.600,00</span>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </li>
+        <li class="carta" data-categoria="Épica" data-preco="3000">
+          <img src="src/image/carta-kaelthar.png" alt="" />
+
+          <div class="informacoes">
+            <h2 class="nome-personagem">Kaelthar</h2>
+            <span class="categoria">Categoria: Épica</span>
+            <span class="preco">R$ 2.600,00</span>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </li>
+        <li class="carta" data-categoria="Épica" data-preco="3000">
+          <img src="src/image/carta-maldrik.png" alt="" />
+
+          <div class="informacoes">
+            <h2 class="nome-personagem">Maldrix</h2>
+            <span class="categoria">Categoria: Épica</span>
+            <span class="preco">R$ 1.500,00</span>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <footer class="rodape">©2025 All Copyright Reserved</footer>
+  </body>
+
+  <script src="src/script.js"></script>
+</html>
