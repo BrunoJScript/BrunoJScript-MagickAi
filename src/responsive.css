@@ -1,0 +1,12 @@
+@media (max-width: 1024px) {
+  .conteiner {
+    padding: 20px;
+  }
+  .conteiner h1 {
+    text-align: center;
+  }
+}
+.conteiner .filtro {
+  background-color: brown;
+  display: flex;
+}

@@ -31,12 +31,12 @@ body {
 }
 .conteiner .filtro {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   margin-bottom: 32px;
 }
 
-.conteiner .categorias-cartas .preco-cartas {
+.conteiner .categorias-cartas .conteiner .preco-cartas {
   display: flex;
   flex-direction: column;
   width: 40%;
@@ -157,4 +157,11 @@ body {
   color: #ededed;
   padding: 20px;
   margin-top: 60px;
+}
+.esconder {
+  display: none;
+}
+
+.mostrar {
+  display: block;
 }
