@@ -1,8 +1,11 @@
-# 🧙‍♂️ Magick IA
+# 🧙‍♂️ Magick Ai
 
-Magick IA é uma vitrine interativa de cartas mágicas criadas com inteligência artificial. Inspirado no universo de *Magic: The Gathering*, este projeto une tecnologia e fantasia para oferecer uma experiência divertida de navegação e compra de cartas fictícias com personagens únicos e poderes extraordinários.
+Magick Ai é uma vitrine interativa de cartas mágicas criadas com inteligência artificial. Inspirado no universo de *Magic: The Gathering*, este projeto une tecnologia e fantasia para oferecer uma experiência divertida de navegação e compra de cartas fictícias com personagens únicos e poderes extraordinários.
 
-![Magick IA Banner](./screenshot-banner.png)
+![Magick Ai Banner](./screenshot-banner.png)
+
+### 🔗 Live Demo
+(https://brunojscript.github.io/BrunoJScript-MagickAi/)
 
 ## ✨ Funcionalidades
 
